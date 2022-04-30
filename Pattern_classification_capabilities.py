@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt;
 import numpy.random as rand
-N = 4
+N = 10
 bias=5
 
 x1 = rand.uniform(0,15,N)
