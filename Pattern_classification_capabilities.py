@@ -34,7 +34,7 @@ for i in range(N):
     else:
         print("Класс C2")
 
-plt.scatter(C1[0][:], C1[1][:], s=10, c='red')
+plt.scatter(C1[0][:], C1[1][:], s=10, c='red')#coordinates(x,y) s=radius(shape) ,c=color
 plt.scatter(C2[0][:], C2[1][:], s=10, c='blue')
 plt.plot(xf,yf)
 plt.grid(True)
